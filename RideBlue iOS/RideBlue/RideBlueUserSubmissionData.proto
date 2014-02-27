@@ -1,0 +1,13 @@
+message SubmissionData
+{
+    required string firstName = 1;
+    required string lastName = 2;
+    required string locationFrom = 3;
+    required string locationTo = 4;
+    required string deviceID = 5;
+    required int32 UMID = 6;
+    required int32  requestType = 7;
+    required string comments = 8;
+
+    optional string phoneNumer = 9 [default = ""];
+}
